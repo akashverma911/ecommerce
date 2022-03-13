@@ -15,3 +15,15 @@ code {
 main {
   min-height: 80vh;
 }
+
+.rating span{
+  margin:0.1rem
+}
+.productCard:hover {
+  transform: scale(1.05);
+  transition: transform .1s;
+}
+
+.fa-star:hover {
+  transform: scale(1.05);
+}
