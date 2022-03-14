@@ -65,7 +65,7 @@ const ProductScreen = (props) => {
 
               <ListGroup.Item>
                 <Row>
-                  <Button className='btn-block' disabled={product.countInStock==0} type='button'>Add to Cart</Button>
+                  <Button className='btn-block' disabled={product.countInStock===0} type='button'>Add to Cart</Button>
                 </Row>
               </ListGroup.Item> 
             </ListGroup> 
